@@ -64,8 +64,10 @@ export default function Inventory() {
             </h2>
           </div>
           <p className="font-sans text-sm text-muted-foreground max-w-sm leading-relaxed">
-            Every species selected for its resilience to New York's unique
-            micro-climates — wind corridors, reflected heat, and limited light.
+            {/* Every species selected for its resilience to New York's unique
+            micro-climates — wind corridors, reflected heat, and limited light. */}
+            Every plant is carefully selected to thrive in New York’s changing
+            weather conditions, including wind, heat, and low light.
           </p>
         </motion.div>
 
