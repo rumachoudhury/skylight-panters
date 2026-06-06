@@ -57,7 +57,7 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 1 }}
       >
-        <p className="font-mono text-[10px] md:text-xs tracking-[0.2em] uppercase text-secondary mb-2">
+        <p className="font-mono text-sm md:text-xs tracking-[0.2em] uppercase text-secondary mb-2">
           40.7128° N, 74.0060° W
         </p>
         <p className="font-sans text-sm md:text-base text-foreground/80 max-w-xs leading-relaxed">
@@ -66,7 +66,7 @@ export default function Hero() {
       </motion.div>
 
       {/* Scroll Vine Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
         <motion.div
           className="w-px bg-primary origin-top"
           style={{ height: `${40 + scrollProgress * 30}px` }}
@@ -90,10 +90,10 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
       >
-        <p className="font-mono text-[10px] tracking-[0.15em] text-muted-foreground text-right">
+        <p className="font-mono text-sm tracking-[0.15em] text-muted-foreground text-right">
           URBAN VITALITY
           <br />
-          NEW YORK · EST. 2024
+          NEW YORK · EST. 2026
         </p>
       </motion.div>
     </section>
