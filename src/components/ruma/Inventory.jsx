@@ -46,7 +46,7 @@ const plants = [
 
 export default function Inventory() {
   return (
-    <section id="inventory" className="relative py-32 md:py-48 px-6 md:px-12">
+    <section id="inventory" className="relative  py-24 md:py-32 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <motion.div
           className="mb-20 flex flex-col md:flex-row md:items-end md:justify-between gap-6"

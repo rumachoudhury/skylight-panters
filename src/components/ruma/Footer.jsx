@@ -44,7 +44,7 @@ export default function Footer() {
   return (
     <footer
       id="contact"
-      className="relative pt-32 md:pt-48 pb-8 px-6 md:px-12 overflow-hidden"
+      className="relative pt-24 md:pt-32 pb-8 px-6 md:px-12 overflow-hidden"
     >
       {/* Giant Background Text */}
       <div className="absolute bottom-0 left-0 right-0 pointer-events-none select-none overflow-hidden">
