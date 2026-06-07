@@ -50,7 +50,7 @@ export default function Footer() {
       <div className="absolute bottom-0 left-0 right-0 pointer-events-none select-none overflow-hidden">
         <h2
           className="font-display text-[25vw] leading-[0.8] lowercase text-transparent tracking-tight"
-          style={{ WebkitTextStroke: "1px hsl(150 8% 18%)" }}
+          style={{ WebkitTextStroke: "1px hsl(150 8% 18%)" }} //“Add border/outline around text
         >
           plant
         </h2>
@@ -126,7 +126,7 @@ export default function Footer() {
             ruma
           </span>
           <span className="font-mono text-[10px] tracking-[0.1em] text-muted-foreground">
-            © 2024 RUMA BOTANICAL STUDIOS — NEW YORK CITY
+            © 2026 RUMA BOTANICAL STUDIOS — NEW YORK CITY
           </span>
           <span className="font-mono text-[10px] tracking-[0.1em] text-muted-foreground">
             40.7128° N, 74.0060° W

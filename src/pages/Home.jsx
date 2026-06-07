@@ -1,4 +1,3 @@
-// import React from 'react';
 import Navbar from "../components/ruma/Navbar";
 import Hero from "../components/ruma/Hero";
 import Services from "../components/ruma/Services";

@@ -11,7 +11,7 @@ export default function AuthLayout({
         <div className="text-center mb-10">
           <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary mb-4">
             <Icon
-              className="w-7 h-7 text-primary-foreground"
+              className="w-6 h-6 text-primary-foreground"
               aria-hidden="true"
             />
           </div>
