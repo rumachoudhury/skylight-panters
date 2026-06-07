@@ -1,37 +1,67 @@
 import { motion } from "framer-motion";
 import { Leaf, Building2, Sprout, Droplets } from "lucide-react";
 
+// const services = [
+//   {
+//     icon: Building2,
+//     title: "rooftop design",
+//     description:
+//       "Full-scale rooftop garden architecture tailored to NYC wind loads, weight restrictions, and sun exposure patterns.",
+//     coordinate: "40.7580° N",
+//   },
+//   {
+//     icon: Leaf,
+//     title: "living walls",
+//     description:
+//       "Vertical garden systems for interiors and facades. Engineered irrigation, curated plant selection for low-light NYC lofts.",
+//     coordinate: "40.7282° N",
+//   },
+//   {
+//     icon: Sprout,
+//     title: "container gardens",
+//     description:
+//       "Bespoke container arrangements for terraces, balconies, and fire escapes. Climate-resilient species, premium planters.",
+//     coordinate: "40.6892° N",
+//   },
+//   {
+//     icon: Droplets,
+//     title: "seasonal care",
+//     description:
+//       "Year-round maintenance programs. Winter protection, spring planting, summer irrigation, and autumn preparation.",
+//     coordinate: "40.7484° N",
+//   },
+// ];
+
 const services = [
   {
     icon: Building2,
-    title: "rooftop design",
+    title: "Rooftop Gardens",
     description:
       "Full-scale rooftop garden architecture tailored to NYC wind loads, weight restrictions, and sun exposure patterns.",
     coordinate: "40.7580° N",
   },
   {
     icon: Leaf,
-    title: "living walls",
+    title: "Living Walls",
     description:
       "Vertical garden systems for interiors and facades. Engineered irrigation, curated plant selection for low-light NYC lofts.",
     coordinate: "40.7282° N",
   },
   {
     icon: Sprout,
-    title: "container gardens",
+    title: "Container Gardens",
     description:
       "Bespoke container arrangements for terraces, balconies, and fire escapes. Climate-resilient species, premium planters.",
     coordinate: "40.6892° N",
   },
   {
     icon: Droplets,
-    title: "seasonal care",
+    title: "Seasonal Maintenance",
     description:
       "Year-round maintenance programs. Winter protection, spring planting, summer irrigation, and autumn preparation.",
     coordinate: "40.7484° N",
   },
 ];
-
 export default function Services() {
   return (
     <section id="services" className="relative  py-24 md:py-32  px-6 md:px-12">
