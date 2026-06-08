@@ -50,7 +50,7 @@ export default function Footer() {
       <div className="absolute bottom-0 left-0 right-0 pointer-events-none select-none overflow-hidden">
         <h2
           className="font-display text-[25vw] leading-[0.8] lowercase text-transparent tracking-tight"
-          style={{ WebkitTextStroke: "1px hsl(150 8% 18%)" }} //“Add border/outline around text
+          style={{ WebkitTextStroke: "1px hsl(150 8% 18%)" }} //👉 “Add border/outline around text
         >
           plant
         </h2>
