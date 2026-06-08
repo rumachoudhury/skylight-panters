@@ -82,6 +82,7 @@ export default function Navbar() {
       </motion.nav>
 
       <AnimatePresence>
+        {/* AnimatePresence comes from the Framer Motion library this allows elements to smoothly animate out instead of disappearing instantly */}
         {menuOpen && (
           <motion.div
             className="fixed inset-0 z-[60] bg-background/95 backdrop-blur-2xl"

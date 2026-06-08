@@ -69,11 +69,12 @@ export default function Hero() {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
         <motion.div
           className="w-px bg-primary origin-top"
-          style={{ height: `${40 + scrollProgress * 30}px` }}
+          style={{ height: `${40 + scrollProgress * 30}px` }} //creating A vertical decorative line that starts invisible grows upward as the user scrolls down
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 1 }}
           transition={{ duration: 1.5, delay: 1.3 }}
         />
+
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
